@@ -28,7 +28,7 @@ SECRET_KEY = 'ha0ap1gm5fkq1l1l^=$hy(xri$zn&reyp82qo6gy=idbii*brv'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['zpa.pythonanywhere.com']
 
 
 # Application definition
