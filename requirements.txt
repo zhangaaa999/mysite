@@ -1,0 +1,16 @@
+asgiref==3.2.3
+certifi==2019.11.28
+cffi==1.14.0
+cryptography==2.8
+Django==2.1.5
+django-ckeditor==5.9.0
+django-js-asset==1.2.2
+numpy==1.18.1
+pandas==1.0.1
+Pillow==7.0.0
+pycparser==2.19
+python-dateutil==2.8.1
+pytz==2019.3
+redis==3.4.1
+six==1.14.0
+sqlparse==0.3.0
