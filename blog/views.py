@@ -1,3 +1,4 @@
+from markdown import markdown
 from collections import OrderedDict
 from django.shortcuts import render, get_object_or_404
 from django.core.paginator import Paginator
@@ -65,6 +66,13 @@ def blogs_with_date(request, year, month):
 
 def blog_detail(request, blog_pk):
     blog = get_object_or_404(Blog, pk=blog_pk)
+    blog.content = markdown(blog.content,
+                            extensions=[
+                                'markdown.extensions.extra',
+                                'markdown.extensions.codehilite',
+                                'markdown.extensions.toc',
+                            ])
+
     read_cookie_key = read_statistics_once_read(request, blog, blog_pk)
 
     context = dict()
