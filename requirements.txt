@@ -3,7 +3,7 @@ asgiref==3.2.3
 certifi==2019.11.28
 cffi==1.14.0
 cryptography==2.8
-Django==2.1.5
+Django==2.2.13
 django-ckeditor==5.9.0
 django-js-asset==1.2.2
 numpy==1.18.1
