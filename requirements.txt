@@ -1,6 +1,6 @@
 mdeditor
 asgiref==3.2.3
-certifi==2019.11.28
+certifi==2022.12.7
 cffi==1.14.0
 cryptography==2.8
 Django==2.1.5
